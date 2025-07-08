@@ -26,16 +26,16 @@
 ### 1. Cloner le projet
 
 ```bash
-git clone https://github.com/TON-UTILISATEUR/identity-vault-v2.git
+git clone https://github.com/titidlh/identity-vault-v2.git
 cd identity-vault-v2
 2. Lancer les API
 
 cd backend/registry-api
-cp .env.example .env
+cp .env.example .env (cp votre env qui contient la clé priv, pour les connexion avec la blockchain)
 npm install
 npm run dev
 
-    Répéter pour issuer-api et verifier-api si nécessaire.
+    Répéter pour issuer-api et verifier-api  
 
 3. Lancer le frontend
 
@@ -58,8 +58,7 @@ npm run dev
 Consulte le fichier DEVOPS_REPORT.md pour les instructions de déploiement.
 📸 Aperçu
 
-(Screenshots à ajouter ici)
-👤 Auteur
-
+ 
+👤 Auteur : 
 Thierry Delahaye
 M2 Systèmes & Réseaux – Projet de fin d’année
